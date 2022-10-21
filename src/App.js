@@ -5,7 +5,7 @@ import Produtos from './Componentes/Produtos';
 import Header from './Componentes/Header';
 import Footer from './Componentes/Footer';
 import Contato from './Componentes/Contato';
-import Produto from './Componentes/Produtos';
+import Produto from './Componentes/Produto';
 
 const App = () => {
   return (

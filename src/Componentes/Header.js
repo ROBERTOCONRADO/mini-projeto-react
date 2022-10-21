@@ -5,16 +5,18 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
   return (
     <nav className={styles.header}>
-      <li>
-        <NavLink className={styles.link} to="/" end>
-          Produtos
-        </NavLink>
-      </li>
-      <li>
-        <NavLink lassName={styles.link} to="contato">
-          Contato
-        </NavLink>
-      </li>
+      <ul>
+        <li>
+          <NavLink className={styles.link} to="/" end>
+            Produtos
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className={styles.link} to="contato">
+            Contato
+          </NavLink>
+        </li>
+      </ul>
     </nav>
   );
 };
